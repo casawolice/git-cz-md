@@ -1,31 +1,31 @@
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-# git-cz
 
-![image](https://user-images.githubusercontent.com/9773803/49760520-fa6c6f00-fcc4-11e8-84c4-80727f071487.png)
-
+### git-cz-md
+ ```
+based on git-cz 
+ ```
 ### Without installation
 
 ```shell
-npx git-cz
+npx git-cz-md
 # or
-npx git-cz -e
+npx git-cz-md -e
 ```
 
 ### Install globally standalone
 
 ```shell
-npm install -g git-cz
-git-cz
+npm install -g git-cz-md
+git-cz-md
 # or
-git-cz -e
+git-cz-md -e
 ```
 
 ### Install locally with Commitizen
 
 ```shell
 npm install -g commitizen
-npm install --save-dev git-cz
+npm install --save-dev git-cz-md
 ```
 
 `package.json`:
@@ -49,15 +49,11 @@ git cz
 ### Install globally with Commitizen
 
 ```shell
-npm install -g commitizen git-cz
-commitizen init git-cz --save-dev --save-exact
+npm install -g commitizen git-cz-md
+commitizen init git-cz-md --save-dev --save-exact
 ```
 
-run:
 
-```shell
-git cz
-```
 
 ## Custom config
 
@@ -140,12 +136,12 @@ module.exports = {
 
 ## Non-interactive mode
 
-Using `--non-interactive` flag you can run `git-cz` non-interactive mode.
+Using `--non-interactive` flag you can run `git-cz-md` non-interactive mode.
 
 For example:
 
 ```bash
-git-cz --non-interactive --type=feat --subject="add onClick prop to component"
+git-cz-md --non-interactive --type=feat --subject="add onClick prop to component"
 ```
 
 CLI parameters:
@@ -165,7 +161,7 @@ Using `--disable-emoji` flag will disable emoji.
 For example:
 
 ```bash
-git-cz --disable-emoji
+git-cz-md --disable-emoji
 ```
 
 ## Commit message format
@@ -241,7 +237,7 @@ The footer is the place to reference any tasks related to this commit.
 ## Why this Fork?
 
 ```bash
-npm i -g git-cz
+npm i -g git-cz-md
 added 1 package in 0.612s
 ```
 
